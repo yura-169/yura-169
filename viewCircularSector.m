@@ -1,4 +1,4 @@
-function [x,y,inputVal]=viewCircularSector_(inputVal)
+function [x,y]=viewCircularSector_(inputVal)
 %view cartesian as sphere 2D coordinate
 %input form : range*azimuth
 %output : surf(x,y,heatmap)
