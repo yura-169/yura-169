@@ -1,4 +1,5 @@
 function [x,y,inputVal]=viewCircularSector_(inputVal)
+%view cartesian as sphere coordinate
 %input form : range*azimuth
 %output : surf(x,y,heatmap)
 num_range = size(inputVal,1);
