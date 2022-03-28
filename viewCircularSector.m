@@ -1,7 +1,7 @@
 function [x,y]=viewCircularSector_(inputVal)
 %view cartesian as sphere 2D coordinate
 %input form : range*azimuth
-%output : surf(x,y,heatmap)
+%heatmap view : surf(x,y,inputVal)
 num_range = size(inputVal,1);
 num_theta = size(inputVal,2);
 startTheta = (180 - num_theta)/2;
